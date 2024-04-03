@@ -16,10 +16,12 @@ public class Main {
         accomodations.add(new House(200, 5, 1000,
                 2, 8000));
 
-        System.out.print("Please choose the type of accomodation");
+        System.out.println("Please choose the type of accomodation");
         String str = new String();
         Scanner scanner = new Scanner(System.in);
-        while (str.equals("Flat") || str.equals("HotelSuite") || str.equals("House")) {
+        while (str.equals("Flat") || str.equals("HotelSuite") || str.equals("House"));
+        str = scanner.nextLine();
+        {
             System.out.print("Thank you for your choice!");
         }
     }
